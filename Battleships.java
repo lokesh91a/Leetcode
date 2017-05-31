@@ -14,7 +14,7 @@ public class Battleships {
                 }
 
                 else{
-                    if(board[i-1][j]!='X' && board[i-1][j]!='X' && board[i][j]=='X')   count++;
+                    if(board[i-1][j]!='X' && board[i][j-1]!='X' && board[i][j]=='X')   count++;
                 }
 
             }
