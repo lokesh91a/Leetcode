@@ -1,4 +1,5 @@
 
+
 import java.util.*;
 
 
@@ -15,6 +16,6 @@ public class Test {
                 c++;
             }
         }
-        System.out.println(c);
+        System.out.println(c++);
     }
 }
